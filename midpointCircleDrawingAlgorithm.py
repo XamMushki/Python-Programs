@@ -47,8 +47,10 @@ def midpointCircleAlg(r, x1=0):
     # Plotting (-y, -x)
     plt.plot(y_coordinates*-1, x_coordinates*-1)
     plt.suptitle('MidPoint Circle Drawing Algorithm')
+    # plt.savefig('circle')
     plt.show()
 
 
 if __name__ == '__main__':
-    midpointCircleAlg(1500)
+    radius = 500
+    midpointCircleAlg(radius)
