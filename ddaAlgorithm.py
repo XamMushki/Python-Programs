@@ -28,7 +28,7 @@ def DDA(x1, y1, x2, y2):
     x, y = x1, y1
     while steps:
         # in case of actual drawing we need the rounded values,
-        # because coordinates of a pixels will always be integers. 
+        # because coordinates of a pixels will always be integers.
         # x_coordinates.append(round(x))
         # y_coordinates.append(round(y))
 
