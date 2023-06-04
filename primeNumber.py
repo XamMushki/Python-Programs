@@ -1,5 +1,5 @@
 def primeUsingWhile(num):
-    if num == 1:
+    if num < 2:
         print(num, 'is not a prime number.')
     elif num > 1:
         i = 2
@@ -16,7 +16,7 @@ def primeUsingWhile(num):
 
 
 def primeUsingFor(num):
-    if num == 1:
+    if num < 2:
         print(num, 'is not a prime number.')
     elif num > 1:
         for i in range(2, num):
